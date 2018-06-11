@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+
+}
+
+.menunav{
+	background-color: #018ccd;
+}
+
+a.nav-link.link {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.detallebanner {
+position: absolute;
+top: 35%;
+width: 100%;
+z-index: 0;
+}
+
+.detallebanner p {
+
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.titulocabecera {
+	color: #fff;
+}
+
+
+.titulocabecera-dark {
+	color: #444;
+}
+
+p.dark {
+
+    color: #222;
+    font-size: 15px;
+
+}
