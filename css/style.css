@@ -47,3 +47,21 @@ p.dark {
     font-size: 15px;
 
 }
+
+.banner{
+	padding: 0;
+	float: left;
+}
+
+.lateral{
+	float: left;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.noticias{
+	box-sizing: border-box;
+	padding: 30px 15px;
+}
