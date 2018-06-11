@@ -12,13 +12,15 @@
 
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
-	<div class="row">
 	<nav class="col-12 navbar navbar-expand-sm menunav">
 
 		<!-- Brand -->
@@ -43,9 +45,9 @@
 		</li>
 		</ul>
 	</nav>
-	</div>
 
-<header>	
+<header>
+<div class="container-fluid">
 <div class="banner col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
 	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		  <div class="carousel-inner">
@@ -128,15 +130,28 @@
 	prueba
 	
 </div> <!-- Fin Banners laterales -->
+</div>
 </header>
 
 <main class="clearfix">
+
+	<div class="container-fluid text-center titulos"> <!-- Quienes somos -->
+		<div class="col-xl-8 offset-xl-2">
+			<h3>¿Quienes Somos?</h3>
+			<p>El objetivo general de la Fundación es contribuir con el tratamiento integral de los niños con cáncer y leucemia del país (Plan AUGE y GES), ayudando a su desarrollo integral, mejorando su calidad de vida y fortaleciendo su integración social y familiar.</p>
+		</div>
+	</div> <!-- Fin Quienes somos -->
+
+<div class="container-fluid">
+		<div class="col-xl-8 offset-xl-2 text-center titulos">
+			<h3>Noticias más recientes</h3>
+		</div>
 	
-	<div class="row noticias col-xl-12 col-lg-12 col-md-12"> <!-- Contenedor noticias -->
+	<div class="row"> <!-- Contenedor noticias -->
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
 		    <div class="photo">
 		      <img src="img/noticia01.jpg" alt="Foto 1" class="img-responsive">
-		        <h3>Finalizó proceso de postulación a Becas de Estudio 2018</h3>
+		        <h4>Finalizó proceso de postulación a Becas de Estudio 2018</h4>
 		        <p>El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes...</p>
 		        <button type="button" class="btn btn-secondary btn-sm">Ver más</button>
 		   
@@ -146,8 +161,8 @@
 		  	<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
 		    <div class="photo">
 		      <img src="img/noticia01.jpg" alt="Foto 1" class="img-responsive">
-		        <h3>Finalizó proceso de postulación a Becas de Estudio 2018</h3>
-		        <p>El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes...</p>
+		        <h4>Tallarinata de amor y sonrisas - Una noche de sonrisas, amor y generosidad</h4>
+		        <p>Con gran éxito se desarrolló nuestra Tallarinata de Amor y Sonrisas el 30 de agosto en el Estadio del Banco Central...</p>
 		        <button type="button" class="btn btn-secondary btn-sm">Ver más</button>
 		   
 		    </div>
@@ -157,8 +172,8 @@
 		  	<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
 		    <div class="photo">
 		      <img src="img/noticia01.jpg" alt="Foto 1" class="img-responsive">
-		        <h3>Finalizó proceso de postulación a Becas de Estudio 2018</h3>
-		        <p>El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes...</p>
+		        <h4>Montaña de la Alegría 2017 - Realización del Taller de Ski</h4>
+		        <p>Se realizó como todos los años en Portillo del 21 al 25 de agosto y contó con la participación de 7 jóvenes chilenos, 2 ecuatorianos y 1 de España...</p>
 		        <button type="button" class="btn btn-secondary btn-sm">Ver más</button>
 		   
 		    </div>
@@ -168,15 +183,86 @@
 		  	<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
 		    <div class="photo">
 		      <img src="img/noticia01.jpg" alt="Foto 1" class="img-responsive">
-		        <h3>Finalizó proceso de postulación a Becas de Estudio 2018</h3>
-		        <p>El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes...</p>
+		        <h4>Carta de agradecimiento a nuestros socios y colaboradores</h4>
+		        <p>Fundación Niño y Cáncer agradece sinceramente a empresas, socios, particulares, colegios y a cada uno de ustedes por su valiosa colaboración prestada...</p>
 		        <button type="button" class="btn btn-secondary btn-sm">Ver más</button>
 		   
 		    </div>
 		  	</div>
-
-
 	</div> <!-- Fin Contenedor noticias -->
+</div>
+
+<div class="jumbotron">
+	
+</div>
+
+<div class="container-fluid">
+	<div class="row contacto"> <!-- Contacto-->
+		<div class="col-xl-8 offset-xl-2 text-center titulos">
+			<h3>Contacto</h3>
+			<p>Si deseas contáctarte con nosotros, nos puedes escribir a través de este formulario o directament a fundacion@ninoycancer.cl</p>
+		</div>
+
+		<div class="col-xl-6 lateral">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509306079652!2d-70.53933968501052!3d-33.383874501484186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1528758823201" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+
+		<div class="col-xl-6 lateral">
+			<form>
+			  <div class="form-group">
+			    <label for="exampleFormControlInput1">Email address</label>
+			    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlSelect1">Example select</label>
+			    <select class="form-control" id="exampleFormControlSelect1">
+			      <option>1</option>
+			      <option>2</option>
+			      <option>3</option>
+			      <option>4</option>
+			      <option>5</option>
+			    </select>
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlSelect2">Example multiple select</label>
+			    <select multiple class="form-control" id="exampleFormControlSelect2">
+			      <option>1</option>
+			      <option>2</option>
+			      <option>3</option>
+			      <option>4</option>
+			      <option>5</option>
+			    </select>
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlTextarea1">Example textarea</label>
+			    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			  </div>
+
+			  <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+			
+		</div>
+		
+
+	</div>
+</div> <!-- Fin Contacto -->
+
+<footer>
+	<div class="jumbotron pie text-center">
+		<p><i class="fas fa-home"></i> Tupungato 10070 Vitacura, Santiago de Chile.</p>
+		<p><i class="fas fa-phone"></i> <a href="tel:22170821">22170821</a> - <a href="tel:22170811">22170811</a></p>
+		<p><i class="fas fa-envelope"></i> <a href="mailto:fundacion@ninoycancer.cl">fundacion@ninoycancer.cl</a></p>
+
+		<a href="https://www.facebook.com/ninoycancer/"><i class="fab fa-facebook-square fa-2x"></i></a>
+		<a href="https://www.instagram.com/fundacionninoycancer/"><i class="fab fa-instagram fa-2x"></i></a>
+
+
+	</div>
+
+	<div class="copy text-center">
+		Fundación Niño y Cáncer © 2018. Todos los derechos reservados.
+	</div>
+</footer>
 
 </main>
 </body>

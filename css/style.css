@@ -10,6 +10,8 @@ body{
 
 .menunav{
 	background-color: #018ccd;
+	position: fixed;
+z-index: 1;
 }
 
 a.nav-link.link {
@@ -51,6 +53,7 @@ p.dark {
 .banner{
 	padding: 0;
 	float: left;
+	margin-top: 6%;
 }
 
 .lateral{
@@ -61,7 +64,22 @@ p.dark {
 	clear: both;
 }
 
-.noticias{
-	box-sizing: border-box;
-	padding: 30px 15px;
+.pie{
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+}
+
+.copy{
+	background-color: #018ccd;
+	font-size: 12px;
+	color: #fff;
+	padding: 10px;
+}
+
+.titulos{
+	padding: 50px 0;
+}
+
+.contacto{
+	margin-bottom: 50px;
 }
