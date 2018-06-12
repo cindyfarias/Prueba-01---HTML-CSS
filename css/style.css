@@ -106,6 +106,20 @@ p.dark {
 
 }
 
+
+.cabecera {
+
+    background-image: url(../img/destacado.jpg);
+    height: 180px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+position: absolute;
+top: 10%;
+}
+
+
 .btn-primary{
 	background-color: #018ccd;
 	border-color: #018ccd;
@@ -140,4 +154,15 @@ p.dark {
 
 .redes:hover{
 	color: #555;
+}
+
+#lineapersona{
+	width: 5%;
+	border: 1px solid #018ccd;
+	margin: 10px 0;
+}
+
+.interior{
+	position: absolute;
+	top: 40%;
 }
