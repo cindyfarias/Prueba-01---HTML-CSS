@@ -13,9 +13,16 @@ body{
 a {
 	color:#018ccd;
 }
+.iconos{
+	color: #018ccd;
+}
+
+.iconos:hover{
+	color: #555;
+}
 
 .info{
-	margin-top: 20px;
+	margin-top: 3%;
 }
 .menunav{
 	background-color: #018ccd;
@@ -23,8 +30,12 @@ a {
 z-index: 1;
 }
 
+.objetivos{
+	margin-bottom: 15%;
+}
+
 footer{
-	margin-top: 50px;
+	margin-top: 5%;
 }
 a.nav-link.link {
     color: #fff;
@@ -103,7 +114,7 @@ p.dark {
 }
 
 .contacto, .noticias {
-	margin-bottom: 50px;
+	margin-bottom: 5%;
 }
 
 .destacado {
