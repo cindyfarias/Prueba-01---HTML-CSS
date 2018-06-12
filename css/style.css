@@ -9,12 +9,23 @@ body{
 
 }
 
+
+a {
+	color:#018ccd;
+}
+
+.info{
+	margin-top: 20px;
+}
 .menunav{
 	background-color: #018ccd;
 	position: fixed;
 z-index: 1;
 }
 
+footer{
+	margin-top: 50px;
+}
 a.nav-link.link {
     color: #fff;
     font-weight: 300;
