@@ -5,6 +5,7 @@
 body{
 	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
+	color: #555;
 
 }
 
@@ -54,6 +55,16 @@ p.dark {
 	padding: 0;
 	float: left;
 	margin-top: 6%;
+}
+
+.bannerwidget {
+    margin-top: 7%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bannerlateral{
+	margin: 7px 0;
 }
 
 .lateral{
