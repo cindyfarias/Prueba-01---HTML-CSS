@@ -25,7 +25,7 @@ a {
 	margin-top: 3%;
 }
 .menunav{
-	background-color: #018ccd;
+	background-color: #fff;
 	position: fixed;
 z-index: 1;
 }
@@ -33,12 +33,15 @@ z-index: 1;
 .objetivos{
 	margin-bottom: 15%;
 }
-
+.borde{
+	background-image: url(img/borde.png);
+height: 5px;
+}
 footer{
 	margin-top: 5%;
 }
 a.nav-link.link {
-    color: #fff;
+    color: #018ccd;
     font-weight: 300;
     font-size: 16px;
 }
@@ -76,7 +79,7 @@ p.dark {
 .banner{
 	padding: 0;
 	float: left;
-	margin-top: 8%;
+	margin-top: 7%;
 }
 
 .bannerwidget {
