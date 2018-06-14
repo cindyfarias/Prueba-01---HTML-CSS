@@ -67,6 +67,14 @@ z-index: 0;
 
 }
 
+.detallebanner-bg {
+position: absolute;
+top: 20%;
+width: 100%;
+z-index: 0;
+}
+
+
 .titulocabecera {
 	color: #fff;
 }
@@ -90,7 +98,7 @@ p.dark {
 }
 
 .bannerwidget {
-    margin-top: 9%;
+    margin-top: 8%;
     padding-left: 0;
     padding-right: 0;
 }
@@ -206,20 +214,47 @@ top: 10%;
 	top: 40%;
 }
 
-@media (min-width:350px ) and (max-width: 560px){
+.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (min-width:350px ) and (max-width: 673px){
+.centrado{
+	text-align: center;
+}
+
+.destacado{
+	height: 600px;
+}
+.detallebanner-bg {
+top: 5%;
+}
+
+.banner {
+    margin-top: 30%;
+}
+
+.w-100 {
+    width: auto !important;
+}
+.detallebanner {
+    top: 35%;
+}
+}
+
+@media (min-width:674px ) and (max-width: 657px){
 .centrado{
 	text-align: center;
 }
 }
 
-@media (min-width:561px ) and (max-width: 881px){
+@media (min-width: 658px) and (max-width: 992px){
 .centrado{
 	text-align: center;
-}
+}	
 }
 
-
-@media (min-width:882px ) and (max-width: 1200px){
+@media (min-width:993px ) and (max-width: 1200px){
 .centrado{
 	text-align: center;
 }
