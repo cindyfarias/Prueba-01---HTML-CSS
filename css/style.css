@@ -160,7 +160,7 @@ transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -5deg) translate3d(0, 0, 0);
 
 .cabecera {
 
-    background-image: url(../img/destacado.jpg);
+    background-image: url(../img/bg-01.jpg);
     height: 180px;
     background-size: cover;
     background-attachment: fixed;
