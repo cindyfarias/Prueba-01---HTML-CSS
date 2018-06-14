@@ -250,9 +250,10 @@ top: 5%;
 
 .w-100 {
     width: auto !important;
+    height: 400px;
 }
 .detallebanner {
-    top: 35%;
+    top: 18%;
 }
 }
 
