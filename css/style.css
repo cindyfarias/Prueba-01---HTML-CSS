@@ -205,3 +205,22 @@ top: 10%;
 	position: absolute;
 	top: 40%;
 }
+
+@media (min-width:350px ) and (max-width: 560px){
+.centrado{
+	text-align: center;
+}
+}
+
+@media (min-width:561px ) and (max-width: 881px){
+.centrado{
+	text-align: center;
+}
+}
+
+
+@media (min-width:882px ) and (max-width: 1200px){
+.centrado{
+	text-align: center;
+}
+}
